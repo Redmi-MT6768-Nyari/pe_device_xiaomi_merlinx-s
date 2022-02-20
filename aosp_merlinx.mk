@@ -14,6 +14,7 @@ $(call inherit-product, device/xiaomi/merlinx/device.mk)
 # Inherit some common PixelExperience stuff.
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_USES_AOSP_RECOVERY := true
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 PRODUCT_NAME := aosp_merlinx
